@@ -1,0 +1,22 @@
+
+## FFI wrapper for libquicktime
+
+
+## Libquicktime / http://libquicktime.sourceforge.net/
+
+   Note:
+   libquicktime is in no way related to the original quicktime
+   software. You should not expect all quicktime files created
+   by original software to be playable by libquicktime or vice
+   versa. You might, however, be lucky in some cases.
+
+libquicktime is a library for reading and writing quicktime/avi/mp4 files. It provides
+convenient access to quicktime files with a variety of supported codecs.
+
+The goal is to have a simple and stable library, which can create reasonable compatible
+Quicktime and AVI files either uncompressed (for high-end or production applications)
+or with decent compression codecs for end user applications. Today, we write Quicktime
+files with a wide range of uncompressed codecs for professional use. Together with sample
+accurate seeking, this makes libquicktime the library of choice for editing applications.
+
+
