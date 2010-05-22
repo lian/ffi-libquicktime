@@ -1,6 +1,13 @@
 
 ## FFI wrapper for libquicktime
 
+# install
+
+        % gem install ffi-libquicktime
+
+        % pacman -S libquicktime        # pacman
+        % port install libquicktime     # macports
+
 
 ## Libquicktime / http://libquicktime.sourceforge.net/
 

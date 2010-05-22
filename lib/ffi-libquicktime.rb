@@ -2,7 +2,7 @@ require 'ffi'
 
 module Quicktime
   extend FFI::Library
-  ffi_lib 'libquicktime'
+  ffi_lib ['libquicktime', '/opt/local/lib/libquicktime.dylib']
 
   #
   # http://libquicktime.sourceforge.net/doc/apiref/group__general.html
